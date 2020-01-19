@@ -6,7 +6,7 @@ public class Sample {
 		// TODO Auto-generated method stub
         System.out.println("Hello World!");
 
-		String[] sub= {"Java","Spring","Hibernate"};
+		String[] sub= {"Java","Spring","Hibernate","Oracle"};
 		
 		for(int i=0;i<sub.length;i++) {
 			System.out.println("Hello "+sub[i]);
