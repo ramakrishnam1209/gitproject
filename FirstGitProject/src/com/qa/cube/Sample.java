@@ -10,8 +10,11 @@ public class Sample {
 		String[] sub= {"Java","Spring","Hibernate","oracle"};		
 		for(int i=0;i<sub.length;i++) {
 			System.out.println("Hello "+sub[i]);
-		}
 		
+		System.out.println(sub[i]);
+		System.out.println("rk");
+		
+		}
 	}
 
 }
