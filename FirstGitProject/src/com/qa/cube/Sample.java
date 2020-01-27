@@ -9,8 +9,12 @@ public class Sample {
           
           String[] names= {"hi","Hello"};
 		String[] sub= {"Java","Spring","Hibernate","oracle"};		
-		for(int i=0;i<sub.length;i++) {
+		/*for(int i=0;i<sub.length;i++) {
 			System.out.println("Hello "+sub[i]);
+		}*/
+		
+		for(String name: sub) {
+			System.out.println("Hello = "+name);
 		}
 		
 	}
